@@ -1,0 +1,29 @@
+const firstName = 'Maxim '
+const lastName = 'Demin '
+// const age = '25'
+let currentYear = '2022'
+let currentMonth = '07'
+let currentDay = '08'
+let currentDate = currentDay + '.' + currentMonth + '.' + currentYear
+const birthYear = '1996'
+const birthMonth = '08'
+const birthDay = '02'
+const currentAge = birthDay + '.' + birthMonth + '.' + birthYear
+const age = currentYear - birthYear
+const fullAge = '25'
+// console.log(typeof firstName)
+// console.log(typeof lastName)
+// console.log(typeof age)
+// console.log('his name: ' + firstName + lastName + 'and his age is: ' + age)
+const isFullAge = currentYear - birthYear >= fullAge // 26 >= 25 => true
+// console.log(isFullAge)
+
+//const courseStatus = 'pending' // ready, fail, pending
+
+//if (courseStatus === 'ready') {
+ // console.log('Курс готов и можно проходить')
+//}
+
+//else if (courseStatus === 'pending') {
+  //console.log('Курс пока находится в процессе разработки')
+//}
